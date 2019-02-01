@@ -20,7 +20,7 @@ public class MagicalCardGameMain
                 }
                 System.out.println(" ");
             }
-            
+
             magicalCardGameModel.setCardList(cards);
             Scanner scanner = new Scanner(System.in);
             System.out.println("Tell me, your column number please");
