@@ -30,10 +30,14 @@ public class MagicalCardGameMain
             String FirstShuffleColPos = scanner.nextLine();
             magicalCardGameModel.setFirstShuffleColPos(FirstShuffleColPos);
 
+            MagicalCardGameCalculator magicalCardGameCalculator = new MagicalCardGameCalculator();
 
+            for (int i=0;i<cards.length;i++) {
+                for (int j = 0; j < cards.length; j++) {
+                    System.out.print(cards[i][j]);
+                    System.out.print(" , ");
+                }
+                System.out.println(" ");
+            }
         }
-    }
-
-
-
-
+}
