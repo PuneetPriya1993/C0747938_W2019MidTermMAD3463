@@ -14,7 +14,7 @@ public class MagicalCardGameMain
                     System.out.print(cards[i][j]);
                     System.out.print(" , ");
                 }
-                System.out.println(" ");
+              //  System.out.println(" ");
             }
 
             magicalCardGameModel.setCardList(cards);
