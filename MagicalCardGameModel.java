@@ -2,9 +2,9 @@ package com.lambton.magicalcardgame;
 
 public class MagicalCardGameModel
 {
-    String firstShuffleColPos;
-    String secShuffleColPos;
-    String [][]cardList=null;
+    String firstShuffleColPos="C2";
+    String secShuffleColPos="C3";
+    String [][]cardList={{"A","4","3"},{"K","7","2"},{"5","9","8"}};
     String [][]firstShuffle=null;
     String [][]secShuffle=null;
     String guessedCard;
