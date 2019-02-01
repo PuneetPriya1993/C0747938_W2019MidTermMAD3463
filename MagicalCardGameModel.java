@@ -38,4 +38,7 @@ public class MagicalCardGameModel
         {
             return cardList;
         }
+
+
+
 }
