@@ -5,8 +5,8 @@ public class MagicalCardGameModel
         String firstShuffleColPos;
         String secShuffleColPos;
         String [][] cardList ;
-        String [][] firstShuffle = null;
-        String [][] secShuffle = null;
+        String [][] firstShuffle ;
+        String [][] secShuffle;
         String guessedCard;
 
         public String getFirstShuffleColPos()
