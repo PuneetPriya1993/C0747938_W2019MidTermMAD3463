@@ -1,6 +1,6 @@
 package com.lambton.magicalcardgame;
 
-interface MagicalCardGameModelInterface
+public interface MagicalCardGameInterface
 {
     public String[][] getFirstShuffleResult(MagicalCardGameModel magicalCardGameModel);
 
