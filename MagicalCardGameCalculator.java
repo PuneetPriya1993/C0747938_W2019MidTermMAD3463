@@ -27,25 +27,25 @@ public class MagicalCardGameCalculator
             tempArray[2][0]=cards1[0][2];
             tempArray[2][1]=cards1[1][2];
             tempArray[2][2]=cards1[2][2];
-
-                for (int w=0; w<cards1.length; w++)
-                {
-                    for (int y = rowNumber; y < 1; y++)
-                    {
-                        for (int u = 0; u < cards1.length; u++)
-                        {
-                            tempArray[y][u] = cards1[y][u + 1];
-                        }
-                    }
-
-                    for (int y = columnNumber; y < 2; y++)
-                    {
-                        for (int u = 0; u < cards1.length; u++)
-                        {
-                            tempArray[y][u] = cards1[y][u + 1];
-                        }
-                    }
-                }
+//
+//                for (int w=0; w<cards1.length; w++)
+//                {
+//                    for (int y = rowNumber; y < 1; y++)
+//                    {
+//                        for (int u = 0; u < cards1.length; u++)
+//                        {
+//                            tempArray[y][u] = cards1[y][u + 1];
+//                        }
+//                    }
+//
+//                    for (int y = columnNumber; y < 2; y++)
+//                    {
+//                        for (int u = 0; u < cards1.length; u++)
+//                        {
+//                            tempArray[y][u] = cards1[y][u + 1];
+//                        }
+//                    }
+//                }
             }
         else if (firstShuffleColPos.contains("B"))
         {
